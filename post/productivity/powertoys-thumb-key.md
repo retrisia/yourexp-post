@@ -12,7 +12,7 @@ author: Mingyu Choi
 
 <section class="width-700 area-head-color bg-white">
 
-<div class="callout-blue">**⌨️ 해당 글은 0.85.1 버전에서 작성되었습니다**</callout>
+<div class="callout-blue">**⌨️ 해당 글은 0.85.1 버전에서 작성되었습니다**</div>
 
 엄지 딸깍으로 여러분들의 작업 속도를 10배는 늘려주는 방법입니다.
 
@@ -26,7 +26,7 @@ Microsoft 공식 유틸리티인 PowerToys 의 Keyboard Manager 로만 진행됩
 
 [자세한 설명](https://learn.microsoft.com/ko-kr/windows/powertoys/) / 설치 [Github](https://github.com/microsoft/PowerToys/releases), [Microsoft Store](https://aka.ms/getPowertoys)
 
-</callout>
+</div>
 
 # Keyboard Manager
 
@@ -82,7 +82,7 @@ Target app(대상앱)의 프로세스 이름은 작업관리자를 켜서 찾을
 
 ## Vim: 개발자는 이런 거 씁니다.
 
-<div class="callout-blue">**✨ 실제 Vim 키맵이 궁금하면 검색해보세요. (좀 복잡한 편)**</callout>
+<div class="callout-blue">**✨ 실제 Vim 키맵이 궁금하면 검색해보세요. (좀 복잡한 편)**</div>
 
 텍스트(문서) 편집기인 Vim의 역사와 실용성을 따지면 할 말이 많지만 가장 중요한 건 역시 키보드로 모든 텍스트 조작을 편리하게 할 수 있다는 점 입니다.
 
@@ -98,7 +98,7 @@ QMK(Quantum Mechanical Keyboard)는 오픈소스 키보드 펌웨어입니다. �
 
 [공식 문서](https://docs.qmk.fm/)
 
-</callout>
+</div>
 
 ![Bazecor: Alt nav layer with Miryoku layout](/_images/bazecormiryoku.png "Bazecor: Alt nav layer with Miryoku layout")
 
@@ -222,7 +222,7 @@ Select(선택) 키를 수정할 때 Allow chords(동시 누르기 허용) 옵션
 
 [Github](https://github.com/philc/vimium), [Chrome Web Store](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb), [Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/), [Add-ons for Firefox (한국어)](https://addons.mozilla.org/ko/firefox/addon/vimium-ff/)
 
-</callout>
+</div>
 
 ## Run Program
 
@@ -248,7 +248,7 @@ URI(Uniform Resource Identifier)는 자원의 고유 식별자 입니다.
 
 [mailto:retrisia@retryond.com](mailto:retrisia@retryond.com) <- 이것도 URI 입니다. (누르면 저한테 메일 보내집니다.)
 
-</callout>
+</div>
 
 여러분들 평소 볼륨 설정 자주 만지신다면 `ms-settings:apps-volume` 치면 바로 볼륨창 띄울 수 있습니다. (물론 `Win + G` 가 더 편함)
 
