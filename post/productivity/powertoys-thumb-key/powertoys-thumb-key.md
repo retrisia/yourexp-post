@@ -1,18 +1,18 @@
 ---
 title: 딸깍으로 작업속도 10배 늘리기 - PowerToys 가이드
 post_excerpt: Keyboard Manager 하나로 빠르고 편하게 타이핑, 작업하는 방법
-featured_image: _images/keyboardmanager.png
-taxonomy:
-    category:
-        - productivity
-post_status: publish
+featured_image: keyboardmanager.png
 published: October 22, 2024
 author: Mingyu Choi
 ---
 
 <section class="width-700 area-head-color bg-white">
 
-<div class="callout-blue">**⌨️ 해당 글은 0.85.1 버전에서 작성되었습니다**</div>
+<div class="callout-blue">
+
+**⌨️해당 글은 0.85.1 버전에서 작성되었습니다**
+
+</div>
 
 엄지 딸깍으로 여러분들의 작업 속도를 10배는 늘려주는 방법입니다.
 
@@ -32,7 +32,7 @@ Microsoft 공식 유틸리티인 PowerToys 의 Keyboard Manager 로만 진행됩
 
 Keyboard Manager 는 단축키 리매핑, 키 리매핑 해주는 유틸리티 입니다.
 
-![Keyboard Manager](/_images/keyboardmanager.png "Keyboard Manager")
+![Keyboard Manager](powertoys-thumb-key_keyboardmanager.png "Keyboard Manager")
 
 Remap a Key(키 다시 매핑)은 키가 고장났을 때 리매핑, 게임 할 때 꼼수 용(공유키)으로 사용할 수 있는 유틸리티입니다.
 
@@ -42,7 +42,7 @@ Remap a Key(키 다시 매핑)은 키가 고장났을 때 리매핑, 게임 할 
 
 ## Remap a shortcut
 
-![Remap a shortcut](/_images/remapashortcut.png "Remap a shortcut")
+![Remap a shortcut](powertoys-thumb-key_remapashortcut.png "Remap a shortcut")
 
 이를 조금 풀어서 설명하자면 다음과 같습니다.
 
@@ -58,7 +58,7 @@ Remap a Key(키 다시 매핑)은 키가 고장났을 때 리매핑, 게임 할 
 
 Target app(대상앱)의 프로세스 이름은 작업관리자를 켜서 찾을 수 있습니다.
 
-![How to find a process name](/_images/howtofindaprocessname.png "How to find a process name")
+![How to find a process name](powertoys-thumb-key_howtofindaprocessname.png "How to find a process name")
 
 안 보인다면 프로세스가 여러개 있는 것이니 프로그램의 왼쪽, 토글을 열어보시면 보입니다.
 
@@ -68,21 +68,25 @@ Target app(대상앱)의 프로세스 이름은 작업관리자를 켜서 찾을
 
 포토샵에서는 레이어 별 다른 객체를 두고 쌓는 형식으로 작업을 하게 됩니다. 키보드도 똑같다고 생각하시면 됩니다.
 
-평소에는 일반 QWERTY 레이어, `Alt` 키를 누른 동안에 방향키 레이어가 작동한다고 상상해 봅시다. (Shift Layer 라고 부릅니다)
+평소에는 일반 QWERTY 레이어, <span class="code-white">Alt</span> 키를 누른 동안에 방향키 레이어가 작동한다고 상상해 봅시다. (Shift Layer 라고 부릅니다)
 
 일단 평소에 글, 코드를 작성한다는 가정 하에 효율적인 구성 위주로 위주로 설정해봅시다.
 
 ## 이렇게 쓰면 글 수정 고트겠네 ㅋㅋ
 
-![Bazecor: Keymap with alt arrows layer](/_images/bazecoraltarrow.png "Bazecor: Keymap with alt arrows layer")
+![Bazecor: Keymap with alt arrows layer](powertoys-thumb-key_bazecoraltarrow.png "Bazecor: Keymap with alt arrows layer")
 
-임시로 배치하면 이런 느낌입니다. 그런데 여러분들 평소에 글 쓰면 `Home`, `End`, `Page Up`, `Page Down` 이런 거 안 쓰고 마우스로 에임 맞춰서 드래그 하는 거 알고 있습니다.
+임시로 배치하면 이런 느낌입니다. 그런데 여러분들 평소에 글 쓰면 <span class="code-white">Home</span>, <span class="code-white">End</span>, <span class="code-white">Page Up</span>, <span class="code-white">Page Down</span> 이런 거 안 쓰고 마우스로 에임 맞춰서 드래그 하는 거 알고 있습니다.
 
 이번 기회에 한 번 써 봅시다.
 
 ## Vim: 개발자는 이런 거 씁니다.
 
-<div class="callout-blue">**✨ 실제 Vim 키맵이 궁금하면 검색해보세요. (좀 복잡한 편)**</div>
+<div class="callout-blue">
+
+**✨ 실제 Vim 키맵이 궁금하면 검색해보세요. (좀 복잡한 편)**
+
+</div>
 
 텍스트(문서) 편집기인 Vim의 역사와 실용성을 따지면 할 말이 많지만 가장 중요한 건 역시 키보드로 모든 텍스트 조작을 편리하게 할 수 있다는 점 입니다.
 
@@ -100,13 +104,13 @@ QMK(Quantum Mechanical Keyboard)는 오픈소스 키보드 펌웨어입니다. �
 
 </div>
 
-![Bazecor: Alt nav layer with Miryoku layout](/_images/bazecormiryoku.png "Bazecor: Alt nav layer with Miryoku layout")
+![Bazecor: Alt nav layer with Miryoku layout](powertoys-thumb-key_bazecormiryoku.png "Bazecor: Alt nav layer with Miryoku layout")
 
 Miryoku 레이아웃의 Nav 레이어 일부를 복사해봤습니다.
 
 이제 글 쓸 때, 왼손 + 오른손의 조합으로 글을 수정하거나 입력할 때 복사, 붙여넣기, 수정을 빠르게 할 수 있습니다.
 
-그런데 눈썰미가 좋으신 분들이라면 왼손에 `Windows`, `Alt`, `Ctrl`, `Shift` 가 순서대로 있는 것을 보셨을 겁니다.
+그런데 눈썰미가 좋으신 분들이라면 왼손에 <span class="code-white">Windows</span>, <span class="code-white">Alt</span>, <span class="code-white">Ctrl</span>, <span class="code-white">Shift</span> 가 순서대로 있는 것을 보셨을 겁니다.
 
 ## Home row mod: 손 안 움직이는 거에 강박 있음
 
@@ -114,9 +118,9 @@ Miryoku 레이아웃의 Nav 레이어 일부를 복사해봤습니다.
 
 - Home row: 타자연습 1단계 할 때 손 올라가있는 거기입니다.
     - ASDF / JKL; <- 이거
-- Mod: Modifier(수정자, Mod) 키. `Windows`, `Alt`, `Ctrl`, `Shift` 키 입니다.
+- Mod: Modifier(수정자, Mod) 키. <span class="code-white">Windows</span>, <span class="code-white">Alt</span>, <span class="code-white">Ctrl</span>, <span class="code-white">Shift</span> 키 입니다.
 
-키보드를 사용할 때 우리 왼손은 `Windows`, `Alt`, `Ctrl`, `Shift` 누르기 바쁩니다. 이 친구들은 Modifier(Mod) 키 라고 불리는데, 아이러니하게도 우리의 손가락은 타자 칠 때의 손가락 기본 위치인 Home row(홈 행) 에 기본으로 올라와 있습니다.
+키보드를 사용할 때 우리 왼손은 <span class="code-white">Windows</span>, <span class="code-white">Alt</span>, <span class="code-white">Ctrl</span>, <span class="code-white">Shift</span> 누르기 바쁩니다. 이 친구들은 Modifier(Mod) 키 라고 불리는데, 아이러니하게도 우리의 손가락은 타자 칠 때의 손가락 기본 위치인 Home row(홈 행) 에 기본으로 올라와 있습니다.
 
 Mod 키 누르자고 손을 너무 많이 이동하는 것 같아서 어디 똑똑하신 분들이 만들어낸 게 Home row mod (홈 행에 Mod) 입니다.
 
@@ -128,21 +132,21 @@ Mod 키 누르자고 손을 너무 많이 이동하는 것 같아서 어디 똑�
 
 ## 의외로 정답은 없음
 
-다음은 위 세팅에서 `Alt`키 홀드. 즉, 손을 자판에서 옮기지 않은 상태로 텍스트를 편집할 수 있는 예시 입니다.
+다음은 위 세팅에서 <span class="code-white">Alt</span>키 홀드. 즉, 손을 자판에서 옮기지 않은 상태로 텍스트를 편집할 수 있는 예시 입니다.
 
-- **한 줄 선택:** 오른손 소지 ****`End` → 왼손 검지 `Shift` 홀드 → 오른손 검지 `Home`
-- **단어 선택:** 왼손 중지 `Ctrl` , 왼손 검지 `Shift` 홀드 → 오른손 `Left` / `Right`
-- **문단 순서 변경:** 한줄, 여러줄 선택 후 → 오른손 약지 `Cut` → 커서 이동 후 → 오른손 검지 `Paste`
+- **한 줄 선택:** 오른손 소지 <span class="code-white">End</span> → 왼손 검지 <span class="code-white">Shift</span> 홀드 → 오른손 검지 <span class="code-white">Home</span>
+- **단어 선택:** 왼손 중지 <span class="code-white">Ctrl</span> , 왼손 검지 <span class="code-white">Shift</span> 홀드 → 오른손 <span class="code-white">Left</span> / <span class="code-white">Right</span>
+- **문단 순서 변경:** 한줄, 여러줄 선택 후 → 오른손 약지 <span class="code-white">Cut</span> → 커서 이동 후 → 오른손 검지 <span class="code-white">Paste</span>
 
-실제 풀배열 키보드를 기준으로, 해당 행위를 하는 데에는 손의 이동을 고려해야합니다. 왼손은 `Ctrl` 과 `Shift` 를 누르기 바쁠 것이고, 오른손은 방향키와 `Home`, `End` 키 까지 손이 가거나 마우스로 드래그 해야합니다.
+실제 풀배열 키보드를 기준으로, 해당 행위를 하는 데에는 손의 이동을 고려해야합니다. 왼손은 <span class="code-white">Ctrl</span> 과 <span class="code-white">Shift</span> 를 누르기 바쁠 것이고, 오른손은 방향키와 <span class="code-white">Home</span>, <span class="code-white">End</span> 키 까지 손이 가거나 마우스로 드래그 해야합니다.
 
 여기에서 여러분들이 불편함을 느끼는 것들을 수정해 가며 자신의 입맛대로 쓰면 됩니다.
 
 다음은 제가 사용 중인 설정입니다.
 
-![Home row mod + Vim-like layer in Keyboard Manager](/_images/homerow.png "Home row mod + Vim-like layer in Keyboard Manager")
+![Home row mod + Vim-like layer in Keyboard Manager](powertoys-thumb-key_homerow.png "Home row mod + Vim-like layer in Keyboard Manager")
 
-![Bazecor: My original nav layout](/_images/bazecororiginal.png "Bazecor: My original nav layout")
+![Bazecor: My original nav layout](powertoys-thumb-key_bazecororiginal.png "Bazecor: My original nav layout")
 
 속도 빠르고 수정 빠르고 작업 빨리 끝나고 아무튼 인생이 편해집니다.
 
@@ -160,23 +164,23 @@ Target app(대상 앱) 설정으로 똑같은 단축키도 여러개 등록할 �
 
 굉장히 당연한 이야기인데, 이걸 해소할 방법이 있습니다.
 
-![TEKKEN 7: Command input list](/_images/tekken7.png "TEKKEN 7: Command input list")
+![TEKKEN 7: Command input list](powertoys-thumb-key_tekken7.png "TEKKEN 7: Command input list")
 
 게임 하시는 분들은 철권(TEKKEN), 스트리트 파이터(Street Fighter) 생각해 봅시다.
 
 이것처럼 커맨드를 평소에도 쓰면 재미있을 것 같지 않습니까?
 
-![Select the keys in the shortcut: Allow chords](/_images/chords.png "Select the keys in the shortcut: Allow chords")
+![Select the keys in the shortcut: Allow chords](powertoys-thumb-key_chords.png "Select the keys in the shortcut: Allow chords")
 
 Select(선택) 키를 수정할 때 Allow chords(동시 누르기 허용) 옵션을 키면 다음과 같이 사용할 수 있습니다.
 
-- 더블탭: 두 번 누르기, 예시 - `Alt + Q, Q`
-- 커맨드: 순서대로 누르기, 예시 - `Alt + Q, W`
-- 콤보: 같은 걸 순서만 바꿔 등록한 뒤 동시에 누르기, 예시 - `Alt + Q, W` / `Alt + W, Q`
+- 더블탭: 두 번 누르기, 예시 - <span class="code-white">Alt + Q, Q</span>
+- 커맨드: 순서대로 누르기, 예시 - <span class="code-white">Alt + Q, W</span>
+- 콤보: 같은 걸 순서만 바꿔 등록한 뒤 동시에 누르기, 예시 - <span class="code-white">Alt + Q, W</span> / <span class="code-white">Alt + W, Q</span>
 
-![QW Combo example](/_images/qwcombo.png "QW Combo example")
+![QW Combo example](powertoys-thumb-key_qwcombo.png "QW Combo example")
 
-해당 예시에서 저는 `Alt + Q W` 를 동시에 누르면 `QW Combo` 라는 텍스트가 작성됩니다.
+해당 예시에서 저는 <span class="code-white">Alt + Q W</span> 를 동시에 누르면 <span class="code-white">QW Combo</span> 라는 텍스트가 작성됩니다.
 
 주의할 점 이라면 A키와 B키를 동시에 콤보로 넣으면, A키 및 B키를 단일로 사용할 수 없습니다. 단일키가 우선시 되기 때문에 안됩니다.
 
@@ -185,13 +189,13 @@ Select(선택) 키를 수정할 때 Allow chords(동시 누르기 허용) 옵션
 ## 쉬운 가이드
 
 - 키 2개로 4가지를 사용하고자 하는 경우 더블탭과 커맨드를 사용하면 됩니다.
-    - `Alt + [Q Q / W W / Q → W / W → Q]`
+    - <span class="code-white">Alt + [Q Q / W W / Q → W / W → Q]</span>
 - 이때 커맨드를 콤보(동시에 눌러도 동일하게 작동)로 사용해도 됩니다.
-    - `Alt + [Q Q / W W / Q + W]`
+    - <span class="code-white">Alt + [Q Q / W W / Q + W]</span>
 - 원한다면 진짜 게임처럼 커맨드를 짜도 됩니다. (커맨드 트리)
-    - `Alt + [Q → W / Q → E / Q → R]`
+    - <span class="code-white">Alt + [Q → W / Q → E / Q → R]</span>
 - 당연히 콤보를 겹쳐서 사용할 수도 있습니다.
-    - `Alt + [Q + W / W + E / E + R]`
+    - <span class="code-white">Alt + [Q + W / W + E / E + R]</span>
 
 이정도면 어디 프로그램 프로게이머 해도 될 것 같습니다.
 
@@ -203,7 +207,7 @@ Select(선택) 키를 수정할 때 Allow chords(동시 누르기 허용) 옵션
 
 ## Shortcuts
 
-![Remap a shortcut: Volume keys](/_images/volumekeys.png "Remap a shortcut: Volume keys")
+![Remap a shortcut: Volume keys](powertoys-thumb-key_volumekeys.png "Remap a shortcut: Volume keys")
 
 잘 쓰면 여러분들 키보드에는 없는 버튼, 행동도 있습니다. (일부 키보드에는 있습니다.)
 
@@ -250,7 +254,7 @@ URI(Uniform Resource Identifier)는 자원의 고유 식별자 입니다.
 
 </div>
 
-여러분들 평소 볼륨 설정 자주 만지신다면 `ms-settings:apps-volume` 치면 바로 볼륨창 띄울 수 있습니다. (물론 `Win + G` 가 더 편함)
+여러분들 평소 볼륨 설정 자주 만지신다면 <span class="code-red">ms-settings:apps-volume</span> 치면 바로 볼륨창 띄울 수 있습니다. (물론 <span class="code-white">Win + G</span> 가 더 편함)
 
 이것 저것 설명하다 보면 100장을 써도 안되기 때문에 검색 부탁드리겠습니다. 😐
 
